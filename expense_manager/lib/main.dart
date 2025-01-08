@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:localstorage/localstorage.dart';
 import 'package:provider/provider.dart';
 
-import 'providers/expense_provider.dart';
-import 'screens/category_management_screen.dart';
-import 'screens/home_screen.dart';
-import 'screens/tag_management_screen.dart';
+import '/providers/expense_provider.dart';
+import '/screens/category_management.dart';
+import '/screens/home_screen.dart';
+import '/screens/tag_management.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
