@@ -8,4 +8,14 @@ class ExpenseCategory {
     required this.name,
     this.isDefault = false,
   });
+
+
+  factory ExpenseCategory.fromJson(Map<String, dynamic> json) {
+    return ExpenseCategory(
+      id: json['id'],
+      name: json['name'],
+    );
+  }
+
+  
 }
